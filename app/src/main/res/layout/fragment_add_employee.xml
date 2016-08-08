@@ -1,0 +1,21 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             xmlns:tools="http://schemas.android.com/tools"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             tools:context=".AddEmployeeFragment">
+
+    <EditText
+        android:id="@+id/new_employee_et"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:hint="@string/enter_name"
+        android:layout_weight="1"/>
+
+    <Button
+        android:id="@+id/add_employee_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/add_employee"
+        />
+
+</LinearLayout>
