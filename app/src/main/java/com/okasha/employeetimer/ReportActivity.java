@@ -169,8 +169,8 @@ public class ReportActivity extends AppCompatActivity {
         }
 
         long minute = (sum / (1000 * 60)) % 60;
-        long hour = (sum / (1000 * 60 * 60))%24 ;
-        String s = String.format("%02d:%02d", hour, minute);
+        long hour = (sum / (1000 * 60 * 60)) ;
+        String s = String.format("%02d : %02d", hour, minute);
 
 
 
